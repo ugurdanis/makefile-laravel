@@ -49,6 +49,8 @@ These commands are used to clear caches, optimize configurations, and run tests.
 - `make clear` - Clear all application caches (config, route, view).
 - `make optimize` - Cache and optimize configuration and routes.
 - `make test` - Run PHPUnit tests.
+- `make clean` - Clean temporary files and caches. This command removes the `vendor`, `node_modules`, and various cache files to ensure a fresh start for the application.
+- `make fresh` - Reset all migrations and seed the database. This command drops all tables and re-runs all migrations, followed by seeding the database with initial data.
 
 ### Laravel Artisan Commands
 
